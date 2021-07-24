@@ -5,7 +5,7 @@
       <div class="text-3xl">Page Not</div>
       <div class="text-3xl">Found</div>
     </div>
-    <router-link to="/" class="text-xl italic">
+    <router-link :to="{ name: 'home' }" class="text-xl italic">
       Click Here to Go to Home
     </router-link>
   </div>
