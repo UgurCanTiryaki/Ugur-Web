@@ -1,5 +1,5 @@
 <template>
-  <div class="h-screen flex flex-col justify-center items-center font-mono">
+  <div class="flex flex-col justify-center items-center font-mono">
     <div class="flex flex-col justify-center items-center mb-10">
       <span class="text-9xl">404</span>
       <span class="text-3xl">Page Not</span>
