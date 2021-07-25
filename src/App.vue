@@ -1,7 +1,7 @@
 <template>
   <div class="relative">
     <Header class="absolute w-full"></Header>
-    <router-view class="bg-gray-100 h-screen"></router-view>
+    <router-view class="bg-gray-100"></router-view>
   </div>
 </template>
 
