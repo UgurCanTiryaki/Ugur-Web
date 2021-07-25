@@ -1,5 +1,8 @@
 <template>
-  <router-view class="bg-gray-100 h-screen"></router-view>
+  <div class="relative">
+    <Header class="absolute top-0 w-full"></Header>
+    <router-view class="bg-gray-100 h-screen"></router-view>
+  </div>
 </template>
 
 <script setup>
