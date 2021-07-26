@@ -1,8 +1,18 @@
 <template>
-  <router-view class="bg-gray-100"></router-view>
+  <div class="relative">
+    <Header class="absolute w-full"></Header>
+    <router-view class="bg-gray-100"></router-view>
+  </div>
 </template>
 
-<script setup>
+<script>
+import Header from "./components/Header.vue";
+
+export default {
+  components: {
+    Header
+  }
+}
 </script>
 
 <style>
