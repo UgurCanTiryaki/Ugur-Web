@@ -23,6 +23,10 @@
         ><FontAwesomeIcon :icon="stackoverflowIcon"></FontAwesomeIcon
       ></a>
     </div>
+    <div class="flex justify-center divide-x text-xl w-full">
+      <span class="w-1/5 text-center">ugurctiryaki@gmail.com</span>
+      <span class="w-1/5 text-center">© 2021 Uğur Can Tiryaki</span>
+    </div>
     <div>
       <span class="text-4xl">🆄🅲🆃 </span>
       <span class="text-2xl align-top">Uğur Can Tiryaki</span>
