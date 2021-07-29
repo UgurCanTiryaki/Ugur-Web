@@ -12,17 +12,18 @@
     "
   >
     <div class="flex justify-evenly text-3xl w-1/5">
-      <router-link :to="{ name: 'home' }"
+      <a href="https://github.com/UgurCanTiryaki"
         ><FontAwesomeIcon :icon="githubIcon"></FontAwesomeIcon
-      ></router-link>
-      <router-link to="/about"
+      ></a>
+      <!--TODO: Youtube channel link will be placed here -->
+      <a href="https://www.youtube.com"
         ><FontAwesomeIcon :icon="youtubeIcon"></FontAwesomeIcon
-      ></router-link>
-      <router-link to="/contact"
+      ></a>
+      <a href="https://stackoverflow.com/users/11957150/uğur-can"
         ><FontAwesomeIcon :icon="stackoverflowIcon"></FontAwesomeIcon
-      ></router-link>
+      ></a>
     </div>
-    <div class="">
+    <div>
       <span class="text-4xl">🆄🅲🆃 </span>
       <span class="text-2xl align-top">Uğur Can Tiryaki</span>
     </div>
