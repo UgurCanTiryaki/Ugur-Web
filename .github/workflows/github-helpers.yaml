@@ -14,10 +14,10 @@ permissions:
   security-events: none
   statuses: none
 jobs:
-  auto-assignee-for-pr:
-    name: auto-assignee-for-pr
+  auto-assignments-for-pr:
+    name: auto-assignments-for-pr
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
     steps:
-      - uses: toshimaru/auto-author-assign@v1.3.5
+      - uses: kentaro-m/auto-assign-action@v1.2.0
