@@ -16,9 +16,7 @@
         ><FontAwesomeIcon :icon="githubIcon"></FontAwesomeIcon
       ></a>
       <!--TODO: Youtube channel link will be placed here -->
-      <a href="https://www.youtube.com"
-        ><FontAwesomeIcon :icon="youtubeIcon"></FontAwesomeIcon
-      ></a>
+      <span><FontAwesomeIcon :icon="youtubeIcon"></FontAwesomeIcon></span>
       <a href="https://stackoverflow.com/users/11957150/uğur-can"
         ><FontAwesomeIcon :icon="stackoverflowIcon"></FontAwesomeIcon
       ></a>
