@@ -2,7 +2,7 @@
   <div class="relative">
     <Header class="absolute w-full"></Header>
     <router-view class="bg-gray-100"></router-view>
-    <Footer></Footer>
+    <Footer/>
   </div>
 </template>
 
