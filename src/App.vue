@@ -1,8 +1,8 @@
 <template>
-  <div class="relative">
+  <div class="relative text-white">
     <Header class="absolute w-full"></Header>
     <router-view class="bg-gray-100"></router-view>
-    <Footer/>
+    <Footer />
   </div>
 </template>
 

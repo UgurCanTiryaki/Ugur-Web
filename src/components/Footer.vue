@@ -8,7 +8,6 @@
       justify-evenly
       items-center
       px-16
-      text-white
     "
   >
     <div class="flex justify-evenly text-3xl w-1/5">
