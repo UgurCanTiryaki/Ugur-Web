@@ -8,6 +8,11 @@ module.exports = {
       fontFamily: {
         josefinSlab: ['Josefin Slab', 'serif'],
       },
+      colors: {
+        lime: colors.lime,
+        cyan: colors.cyan,
+        rose: colors.rose,
+      },
     },
   },
   variants: {
