@@ -13,8 +13,8 @@
   >
     <div class="flex flex-col justify-evenly items-center h-64">
       <span class="text-5xl">Hello, I am Ugur Can</span>
-      <span class="text-4xl"
-        >Backend Developer, experienced with ExpressJS and Golang
+      <span class="text-4xl">
+        Backend Developer, experienced with ExpressJS and Golang
       </span>
       <div class="flex justify-evenly w-1/2 h-10 text-xl">
         <HomeButton buttonLink="/about" buttonText="About" />
