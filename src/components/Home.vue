@@ -17,52 +17,22 @@
         >Backend Developer, experienced with ExpressJS and Golang</span
       >
       <div class="flex justify-evenly w-1/2 h-10 text-xl">
-        <div
-          class="
-            flex
-            justify-center
-            items-center
-            w-3/12
-            rounded-3xl
-            bg-rose-600
-            hover:bg-rose-800
-          "
-        >
-          <router-link to="/about" class="">About</router-link>
-        </div>
-        <div
-          class="
-            flex
-            justify-center
-            items-center
-            w-3/12
-            rounded-3xl
-            bg-rose-600
-            hover:bg-rose-800
-          "
-        >
-          <!--TODO: Actual link will be placed here -->
-          <router-link to="/about" class="">Skills</router-link>
-        </div>
-        <div
-          class="
-            flex
-            justify-center
-            items-center
-            w-3/12
-            rounded-3xl
-            bg-rose-600
-            hover:bg-rose-800
-          "
-        >
-          <router-link to="/contact" class="">Contact</router-link>
-        </div>
+        <HomeButton buttonLink="/about" buttonText="About" />
+        <HomeButton buttonLink="/about/skills" buttonText="Skills" />
+        <HomeButton buttonLink="/contact" buttonText="Contact" />
       </div>
     </div>
   </div>
 </template>
 
 <script>
+import HomeButton from "./HomeButton.vue";
+
+export default {
+  components: {
+    HomeButton,
+  },
+};
 </script>
 
 <style>
