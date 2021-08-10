@@ -5,7 +5,7 @@
       justify-center
       items-center
       h-screen
-      font-josefinSlab font-extrabold
+      font-josefin-slab font-extrabold
       bg-gradient-to-r
       from-lime-400
       to-cyan-400

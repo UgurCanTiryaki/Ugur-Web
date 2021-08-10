@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        josefinSlab: ['Josefin Slab', 'serif'],
+        'josefin-slab': ['Josefin Slab', 'serif'],
       },
       colors: {
         lime: colors.lime,
