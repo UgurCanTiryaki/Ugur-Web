@@ -11,7 +11,7 @@
       to-cyan-400
     "
   >
-    <div class="flex flex-col justify-evenly items-center h-64 text-white">
+    <div class="flex flex-col justify-evenly items-center h-64">
       <span class="text-5xl">Hello, I am Ugur Can</span>
       <span class="text-4xl"
         >Backend Developer, experienced with ExpressJS and Golang
