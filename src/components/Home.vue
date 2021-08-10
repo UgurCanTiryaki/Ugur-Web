@@ -1,12 +1,38 @@
 <template>
-  <!--TODO: The p tag and h-screen are both temporary here.
-   There will be another tags which has a total height greater than header's height-->
-  <p class="h-screen">
-    Home
-  </p>
+  <div
+    class="
+      flex
+      justify-center
+      items-center
+      h-screen
+      font-josefin-slab font-extrabold
+      bg-gradient-to-r
+      from-lime-400
+      to-cyan-400
+    "
+  >
+    <div class="flex flex-col justify-evenly items-center h-64">
+      <span class="text-5xl">Hello, I am Ugur Can</span>
+      <span class="text-4xl">
+        Backend Developer, experienced with ExpressJS and Golang
+      </span>
+      <div class="flex justify-evenly w-1/2 h-10 text-xl">
+        <HomeButton buttonLink="/about" buttonText="About" />
+        <HomeButton buttonLink="/about/skills" buttonText="Skills" />
+        <HomeButton buttonLink="/contact" buttonText="Contact" />
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
+import HomeButton from "./HomeButton.vue";
+
+export default {
+  components: {
+    HomeButton,
+  },
+};
 </script>
 
 <style>
