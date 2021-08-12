@@ -8,6 +8,7 @@
       rounded-3xl
       bg-rose-600
       hover:bg-rose-800
+      text-white
     "
     :to="buttonLink"
   >

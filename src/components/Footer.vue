@@ -21,9 +21,9 @@
       ></a>
     </div>
     <div class="flex justify-center divide-x text-xl w-full">
-      <a href="mailto:ugurctiryaki@gmail.com" class="w-1/5 text-center"
-        >ugurctiryaki@gmail.com</a
-      >
+      <div class="w-1/5 text-center">
+        <a href="mailto:ugurctiryaki@gmail.com">ugurctiryaki@gmail.com</a>
+      </div>
       <span class="w-1/5 text-center">© 2021 Uğur Can Tiryaki</span>
     </div>
     <div>
